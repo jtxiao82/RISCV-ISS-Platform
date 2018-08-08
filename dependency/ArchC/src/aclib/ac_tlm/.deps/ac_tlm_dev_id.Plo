@@ -1,6 +1,0 @@
-ac_tlm_dev_id.lo: ac_tlm_dev_id.cpp /usr/include/stdc-predef.h \
- ac_tlm_dev_id.H
-
-/usr/include/stdc-predef.h:
-
-ac_tlm_dev_id.H:
