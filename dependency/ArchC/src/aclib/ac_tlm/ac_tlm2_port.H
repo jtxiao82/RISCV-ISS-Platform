@@ -51,7 +51,9 @@
 #include "ac_tlm_protocol.H"
 #include "ac_tlm_dev_id.H"
 
-
+#include <tlm.h>
+#include "tlm_utils/simple_initiator_socket.h"
+#include "tlm_utils/simple_target_socket.h"
 //////////////////////////////////////////////////////////////////////////////
 
 // using statements
@@ -67,7 +69,7 @@ using std::string;
 //////////////////////////////////////////////////////////////////////////////
 
 /// ArchC TLM initiator port class.    
-class ac_tlm2_port : public sc_port<ac_tlm2_blocking_transport_if>,
+class ac_tlm2_port : /*public sc_port<ac_tlm2_blocking_transport_if>,*/
                      public ac_inout_if,
                      public ac_tlm_dev_id {
 
@@ -79,6 +81,7 @@ public:
   string name;
   uint32_t size;
 
+  tlm_utils::simple_initiator_socket<ac_tlm2_port> LOCAL_init_socket;
 
 
   /** 
