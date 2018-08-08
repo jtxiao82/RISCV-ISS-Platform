@@ -1,0 +1,6 @@
+libpowersc_a-psc_tables.o: psc_tables.cpp /usr/include/stdc-predef.h \
+ psc_tables.h
+
+/usr/include/stdc-predef.h:
+
+psc_tables.h:
