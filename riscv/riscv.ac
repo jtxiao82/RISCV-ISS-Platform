@@ -13,7 +13,9 @@
 
 AC_ARCH(riscv) {
 
-  ac_mem DM:512M;
+  //ac_mem DM:512M;
+  ac_tlm2_port DM:512M;
+  ac_tlm2_intr_port intp;
   ac_regbank RB:32;
 
   ac_regbank RBF:64;
@@ -24,7 +26,15 @@ AC_ARCH(riscv) {
 
   ac_wordsize 32;
 
+  // Instruction Cache
+  ac_icache   IC("2w", 128, 32, "wb", "fifo");
+  // Data Cache
+  ac_dcache   DC("2w", 512, 32, "wt", "fifo");
+
+
   ARCH_CTOR(riscv) {
+    IC.bindTo(DM);
+    DC.bindTo(DM);
     ac_isa("riscv_isa.ac");
     set_endian("little");
   };
