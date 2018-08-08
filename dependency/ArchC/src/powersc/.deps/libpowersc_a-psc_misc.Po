@@ -1,0 +1,8 @@
+libpowersc_a-psc_misc.o: psc_misc.cpp /usr/include/stdc-predef.h \
+ psc_misc.h config.h
+
+/usr/include/stdc-predef.h:
+
+psc_misc.h:
+
+config.h:

@@ -16,7 +16,7 @@ include_directories(${ARCHC_INCLUDE_DIRS})
 # hard code to import archC lib
 add_library(archc SHARED IMPORTED) # or STATIC instead of SHARED
 set_target_properties(archc PROPERTIES
-  IMPORTED_LOCATION "${CMAKE_CURRENT_SOURCE_DIR}/../../../install/archc/lib/libarchc.a"
+  IMPORTED_LOCATION "${CMAKE_CURRENT_SOURCE_DIR}/../install/archc/lib/libarchc.a"
 )
 
 
@@ -26,9 +26,6 @@ target_link_libraries(platform
     bus
     memory
     archc
-    fi_lib
-    monitor
-    tinyxml
     ${SYSTEMC_LIBRARIES} 
     ${ARCHC_LIBRARIES} 
     )

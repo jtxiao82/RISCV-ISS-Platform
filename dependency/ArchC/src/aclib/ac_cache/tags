@@ -1,0 +1,557 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACLOCAL	Makefile	/^ACLOCAL = ${SHELL} \/home\/jtxiao\/NTHU\/Research\/GitHub\/ArchC\/config\/missing aclocal-1.15$/;"	m
+ACLOCAL_M4	Makefile	/^ACLOCAL_M4 = $(top_srcdir)\/aclocal.m4$/;"	m
+AMTAR	Makefile	/^AMTAR = $${TAR-tar}$/;"	m
+AM_CPPFLAGS	Makefile	/^AM_CPPFLAGS = -I. -I$(top_srcdir)\/src\/aclib\/ac_decoder -I$(top_srcdir)\/src\/aclib\/ac_gdb -I$(top_srcdir)\/src\/aclib\/ac_core -I$(top_srcdir)\/src\/aclib\/ac_syscall -I$(top_srcdir)\/src\/aclib\/ac_utils -pthread  -I\/home\/jtxiao\/Downloads\/systemcinstall\/include$/;"	m
+AM_DEFAULT_VERBOSITY	Makefile	/^AM_DEFAULT_VERBOSITY = 0$/;"	m
+AM_V_CXX	Makefile	/^AM_V_CXX = $(am__v_CXX_$(V))$/;"	m
+AM_V_CXXLD	Makefile	/^AM_V_CXXLD = $(am__v_CXXLD_$(V))$/;"	m
+AM_V_GEN	Makefile	/^AM_V_GEN = $(am__v_GEN_$(V))$/;"	m
+AM_V_P	Makefile	/^AM_V_P = $(am__v_P_$(V))$/;"	m
+AM_V_at	Makefile	/^AM_V_at = $(am__v_at_$(V))$/;"	m
+AM_V_lt	Makefile	/^AM_V_lt = $(am__v_lt_$(V))$/;"	m
+AR	Makefile	/^AR = ar$/;"	m
+AUTOCONF	Makefile	/^AUTOCONF = ${SHELL} \/home\/jtxiao\/NTHU\/Research\/GitHub\/ArchC\/config\/missing autoconf$/;"	m
+AUTOHEADER	Makefile	/^AUTOHEADER = ${SHELL} \/home\/jtxiao\/NTHU\/Research\/GitHub\/ArchC\/config\/missing autoheader$/;"	m
+AUTOMAKE	Makefile	/^AUTOMAKE = ${SHELL} \/home\/jtxiao\/NTHU\/Research\/GitHub\/ArchC\/config\/missing automake-1.15$/;"	m
+AWK	Makefile	/^AWK = gawk$/;"	m
+BINUTILS_DIR	Makefile	/^BINUTILS_DIR = $/;"	m
+BISON	Makefile	/^BISON = bison$/;"	m
+CACHEBLOCK_H	cacheBlock.h	3;"	d
+CACHEMEMORYLIST_H	cacheMem.h	2;"	d
+CACHE_MAX_LINESIZE_CSV_FILE	ac_cache_power.H	16;"	d
+CACHE_MAX_POWER_STATS_DESCR_SIZE	ac_cache_power.H	18;"	d
+CACHE_MAX_POWER_STATS_NAME_SIZE	ac_cache_power.H	17;"	d
+CACHE_POWER_TABLE_FILE	ac_cache_power.H	12;"	d
+CACHE_START_WINDOW_SIZE	ac_cache_power.H	14;"	d
+CACHE_WINDOW_REPORT	ac_cache_power.H	10;"	d
+CACHE_WINDOW_REPORT_FILE	ac_cache_power.H	11;"	d
+CC	Makefile	/^CC = gcc$/;"	m
+CCDEPMODE	Makefile	/^CCDEPMODE = depmode=gcc3$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -g -O2 -Wall$/;"	m
+CONFIG_CLEAN_FILES	Makefile	/^CONFIG_CLEAN_FILES =$/;"	m
+CONFIG_CLEAN_VPATH_FILES	Makefile	/^CONFIG_CLEAN_VPATH_FILES =$/;"	m
+CONFIG_HEADER	Makefile	/^CONFIG_HEADER = $(top_builddir)\/config.h$/;"	m
+CPP	Makefile	/^CPP = gcc -E$/;"	m
+CPPFLAGS	Makefile	/^CPPFLAGS = $/;"	m
+CTAGS	Makefile	/^CTAGS = ctags$/;"	m
+CTL_IDLE	ac_cache_power.H	/^  CTL_IDLE,$/;"	e	enum:cache_type_line_t
+CTL_NUM_PROFILE	ac_cache_power.H	/^  CTL_NUM_PROFILE,$/;"	e	enum:cache_type_line_t
+CTL_PROFILE	ac_cache_power.H	/^  CTL_PROFILE,$/;"	e	enum:cache_type_line_t
+CTL_READ	ac_cache_power.H	/^  CTL_READ,$/;"	e	enum:cache_type_line_t
+CTL_UNKNOWN	ac_cache_power.H	/^  CTL_UNKNOWN$/;"	e	enum:cache_type_line_t
+CTL_WRITE	ac_cache_power.H	/^  CTL_WRITE,$/;"	e	enum:cache_type_line_t
+CXX	Makefile	/^CXX = g++$/;"	m
+CXXCOMPILE	Makefile	/^CXXCOMPILE = $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) \\$/;"	m
+CXXCPP	Makefile	/^CXXCPP = g++ -E$/;"	m
+CXXDEPMODE	Makefile	/^CXXDEPMODE = depmode=gcc3$/;"	m
+CXXFLAGS	Makefile	/^CXXFLAGS = -g -O2 -Wall$/;"	m
+CXXLD	Makefile	/^CXXLD = $(CXX)$/;"	m
+CXXLINK	Makefile	/^CXXLINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \\$/;"	m
+CYGPATH_W	Makefile	/^CYGPATH_W = echo$/;"	m
+DEFAULT_INCLUDES	Makefile	/^DEFAULT_INCLUDES = -I. -I$(top_builddir)$/;"	m
+DEFS	Makefile	/^DEFS = -DHAVE_CONFIG_H$/;"	m
+DEPDIR	Makefile	/^DEPDIR = .deps$/;"	m
+DIR_H	Dir.h	2;"	d
+DISTFILES	Makefile	/^DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)$/;"	m
+DIST_COMMON	Makefile	/^DIST_COMMON = $(srcdir)\/Makefile.am $(include_HEADERS) \\$/;"	m
+DIST_SOURCES	Makefile	/^DIST_SOURCES = $(libaccache_la_SOURCES)$/;"	m
+DLLTOOL	Makefile	/^DLLTOOL = false$/;"	m
+DSYMUTIL	Makefile	/^DSYMUTIL = $/;"	m
+DUMPBIN	Makefile	/^DUMPBIN = $/;"	m
+Dir	Dir.cpp	/^Dir::Dir()$/;"	f	class:Dir
+Dir	Dir.h	/^		Dir(int p){totalOfCaches=p;}$/;"	f	class:Dir
+Dir	Dir.h	/^class Dir$/;"	c
+ECHO_C	Makefile	/^ECHO_C = $/;"	m
+ECHO_N	Makefile	/^ECHO_N = -n$/;"	m
+ECHO_T	Makefile	/^ECHO_T = $/;"	m
+EGREP	Makefile	/^EGREP = \/bin\/grep -E$/;"	m
+ETAGS	Makefile	/^ETAGS = etags$/;"	m
+EXEEXT	Makefile	/^EXEEXT = $/;"	m
+EXPORT_SYSTEMC_LIB	Makefile	/^EXPORT_SYSTEMC_LIB = \/home\/jtxiao\/Downloads\/systemcinstall\/lib-linux64$/;"	m
+EXPORT_SYSTEMC_PKG	Makefile	/^EXPORT_SYSTEMC_PKG = EXPORT_SYSTEMC_LIB\/pkgconfig$/;"	m
+FGREP	Makefile	/^FGREP = \/bin\/grep -F$/;"	m
+FLEX	Makefile	/^FLEX = flex$/;"	m
+GDB_DIR	Makefile	/^GDB_DIR = $/;"	m
+GREP	Makefile	/^GREP = \/bin\/grep$/;"	m
+HAVE_DIR	ac_cache.H	6;"	d
+HEADERS	Makefile	/^HEADERS = $(include_HEADERS)$/;"	m
+INSTALL	Makefile	/^INSTALL = \/usr\/bin\/install -c$/;"	m
+INSTALL_DATA	Makefile	/^INSTALL_DATA = ${INSTALL} -m 644$/;"	m
+INSTALL_HEADER	Makefile	/^INSTALL_HEADER = $(INSTALL_DATA)$/;"	m
+INSTALL_PROGRAM	Makefile	/^INSTALL_PROGRAM = ${INSTALL}$/;"	m
+INSTALL_SCRIPT	Makefile	/^INSTALL_SCRIPT = ${INSTALL}$/;"	m
+INSTALL_STRIP_PROGRAM	Makefile	/^INSTALL_STRIP_PROGRAM = $(install_sh) -c -s$/;"	m
+LD	Makefile	/^LD = \/usr\/bin\/ld -m elf_x86_64$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS = $/;"	m
+LEX	Makefile	/^LEX = flex$/;"	m
+LEXLIB	Makefile	/^LEXLIB = -lfl$/;"	m
+LEX_OUTPUT_ROOT	Makefile	/^LEX_OUTPUT_ROOT = lex.yy$/;"	m
+LIBELF_CFLAGS	Makefile	/^LIBELF_CFLAGS = $/;"	m
+LIBELF_LIBS	Makefile	/^LIBELF_LIBS = $/;"	m
+LIBOBJS	Makefile	/^LIBOBJS = $/;"	m
+LIBS	Makefile	/^LIBS = $/;"	m
+LIBTOOL	Makefile	/^LIBTOOL = $(SHELL) $(top_builddir)\/libtool$/;"	m
+LIPO	Makefile	/^LIPO = $/;"	m
+LN_S	Makefile	/^LN_S = ln -s$/;"	m
+LTCXXCOMPILE	Makefile	/^LTCXXCOMPILE = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \\$/;"	m
+LTLIBOBJS	Makefile	/^LTLIBOBJS = $/;"	m
+LTLIBRARIES	Makefile	/^LTLIBRARIES = $(noinst_LTLIBRARIES)$/;"	m
+LT_SYS_LIBRARY_PATH	Makefile	/^LT_SYS_LIBRARY_PATH = $/;"	m
+MAKEINFO	Makefile	/^MAKEINFO = ${SHELL} \/home\/jtxiao\/NTHU\/Research\/GitHub\/ArchC\/config\/missing makeinfo$/;"	m
+MANIFEST_TOOL	Makefile	/^MANIFEST_TOOL = :$/;"	m
+MAXBLOCKS	cacheMem.h	4;"	d
+MAX_INDEX_SIZE	Dir.h	5;"	d
+MAX_NUMBER_OF_CACHES	Dir.h	4;"	d
+MEM_SIZE_	ac_cache.H	10;"	d
+MKDIR_P	Makefile	/^MKDIR_P = \/bin\/mkdir -p$/;"	m
+NM	Makefile	/^NM = \/usr\/bin\/nm -B$/;"	m
+NMEDIT	Makefile	/^NMEDIT = $/;"	m
+NORMAL_INSTALL	Makefile	/^NORMAL_INSTALL = :$/;"	m
+NORMAL_UNINSTALL	Makefile	/^NORMAL_UNINSTALL = :$/;"	m
+OBJDUMP	Makefile	/^OBJDUMP = objdump$/;"	m
+OBJEXT	Makefile	/^OBJEXT = o$/;"	m
+OTOOL	Makefile	/^OTOOL = $/;"	m
+OTOOL64	Makefile	/^OTOOL64 = $/;"	m
+OUTPUT_IN_FILE	ac_cache_bhv.H	148;"	d
+PACKAGE	Makefile	/^PACKAGE = archc$/;"	m
+PACKAGE_BUGREPORT	Makefile	/^PACKAGE_BUGREPORT = $/;"	m
+PACKAGE_NAME	Makefile	/^PACKAGE_NAME = archc$/;"	m
+PACKAGE_STRING	Makefile	/^PACKAGE_STRING = archc 2.4.1$/;"	m
+PACKAGE_TARNAME	Makefile	/^PACKAGE_TARNAME = archc$/;"	m
+PACKAGE_URL	Makefile	/^PACKAGE_URL = $/;"	m
+PACKAGE_VERSION	Makefile	/^PACKAGE_VERSION = 2.4.1$/;"	m
+PATH_SEPARATOR	Makefile	/^PATH_SEPARATOR = :$/;"	m
+PKG_CONFIG	Makefile	/^PKG_CONFIG = \/usr\/bin\/pkg-config$/;"	m
+PKG_CONFIG_LIBDIR	Makefile	/^PKG_CONFIG_LIBDIR = $/;"	m
+PKG_CONFIG_PATH	Makefile	/^PKG_CONFIG_PATH = \/home\/jtxiao\/Downloads\/acinstall\/lib\/pkgconfig:\/home\/jtxiao\/Downloads\/systemcinstall\/lib-linux64\/pkgconfig:$/;"	m
+POST_INSTALL	Makefile	/^POST_INSTALL = :$/;"	m
+POST_UNINSTALL	Makefile	/^POST_UNINSTALL = :$/;"	m
+PRE_INSTALL	Makefile	/^PRE_INSTALL = :$/;"	m
+PRE_UNINSTALL	Makefile	/^PRE_UNINSTALL = :$/;"	m
+RANLIB	Makefile	/^RANLIB = ranlib$/;"	m
+READ_COMMAND	ac_cache_bhv.H	137;"	d
+SED	Makefile	/^SED = \/bin\/sed$/;"	m
+SET_MAKE	Makefile	/^SET_MAKE = $/;"	m
+SHELL	Makefile	/^SHELL = \/bin\/bash$/;"	m
+SOURCES	Makefile	/^SOURCES = $(libaccache_la_SOURCES)$/;"	m
+STRIP	Makefile	/^STRIP = strip$/;"	m
+SYSTEMC_CFLAGS	Makefile	/^SYSTEMC_CFLAGS = -pthread  -I\/home\/jtxiao\/Downloads\/systemcinstall\/include$/;"	m
+SYSTEMC_LIBS	Makefile	/^SYSTEMC_LIBS = -L\/home\/jtxiao\/Downloads\/systemcinstall\/lib-linux64 -lsystemc$/;"	m
+TLM2_CFLAGS	Makefile	/^TLM2_CFLAGS = -I\/home\/jtxiao\/Downloads\/systemcinstall\/include$/;"	m
+TLM2_LIBS	Makefile	/^TLM2_LIBS = -L\/home\/jtxiao\/Downloads\/systemcinstall\/lib-linux64 -lsystemc$/;"	m
+TLM_CFLAGS	Makefile	/^TLM_CFLAGS = -I\/home\/jtxiao\/Downloads\/systemcinstall\/include$/;"	m
+TLM_LIBS	Makefile	/^TLM_LIBS = -L\/home\/jtxiao\/Downloads\/systemcinstall\/lib-linux64 -lsystemc$/;"	m
+VERSION	Makefile	/^VERSION = 2.4.1$/;"	m
+WRITE_COMMAND	ac_cache_bhv.H	138;"	d
+YACC	Makefile	/^YACC = bison -y$/;"	m
+YFLAGS	Makefile	/^YFLAGS = $/;"	m
+_AC_CACHE_H_INCLUDED_	ac_cache.H	2;"	d
+_AC_CACHE_IF_H_INCLUDED_	ac_cache_if.H	2;"	d
+_AC_TRACE_H_INCLUDED_	ac_cache_trace.H	2;"	d
+_internal_get_block	ac_cache_bhv.H	/^_internal_get_block(ADDRESS addr, split_address_t &sa, cache_block_t &cb)$/;"	f	class:cache_bhv
+abs_builddir	Makefile	/^abs_builddir = \/home\/jtxiao\/NTHU\/Research\/GitHub\/ArchC\/src\/aclib\/ac_cache$/;"	m
+abs_srcdir	Makefile	/^abs_srcdir = \/home\/jtxiao\/NTHU\/Research\/GitHub\/ArchC\/src\/aclib\/ac_cache$/;"	m
+abs_top_builddir	Makefile	/^abs_top_builddir = \/home\/jtxiao\/NTHU\/Research\/GitHub\/ArchC$/;"	m
+abs_top_srcdir	Makefile	/^abs_top_srcdir = \/home\/jtxiao\/NTHU\/Research\/GitHub\/ArchC$/;"	m
+ac_cache_if	ac_cache_if.H	/^	explicit ac_cache_if(cache_t &c) : cache(c) {}$/;"	f	class:ac_cache_if
+ac_cache_if	ac_cache_if.H	/^class ac_cache_if : public ac_inout_if {$/;"	c
+ac_cache_replacement_policy	ac_cache_replacement_policy.H	/^  ac_cache_replacement_policy(unsigned int num_blocks, unsigned int assoc) : $/;"	f	class:ac_cache_replacement_policy
+ac_cache_replacement_policy	ac_cache_replacement_policy.H	/^class ac_cache_replacement_policy$/;"	c
+ac_cache_trace	ac_cache_trace.H	/^class ac_cache_trace {$/;"	c
+ac_cache_trace	ac_cache_trace.cpp	/^ac_cache_trace::ac_cache_trace(std::ostream &o) : out(o) $/;"	f	class:ac_cache_trace
+ac_ct_AR	Makefile	/^ac_ct_AR = ar$/;"	m
+ac_ct_CC	Makefile	/^ac_ct_CC = gcc$/;"	m
+ac_ct_CXX	Makefile	/^ac_ct_CXX = g++$/;"	m
+ac_ct_DUMPBIN	Makefile	/^ac_ct_DUMPBIN = $/;"	m
+ac_fifo_replacement_policy	ac_fifo_replacement_policy.H	/^  ac_fifo_replacement_policy(unsigned int num_blocks, unsigned int assoc) : $/;"	f	class:ac_fifo_replacement_policy
+ac_fifo_replacement_policy	ac_fifo_replacement_policy.H	/^class ac_fifo_replacement_policy : public ac_cache_replacement_policy$/;"	c
+ac_lru_replacement_policy	ac_lru_replacement_policy.H	/^  ac_lru_replacement_policy(unsigned int num_blocks, unsigned int assoc) : $/;"	f	class:ac_lru_replacement_policy
+ac_lru_replacement_policy	ac_lru_replacement_policy.H	/^class ac_lru_replacement_policy : public ac_cache_replacement_policy$/;"	c
+ac_plrum_replacement_policy	ac_plrum_replacement_policy.H	/^  ac_plrum_replacement_policy(unsigned int num_blocks, unsigned int assoc) : $/;"	f	class:ac_plrum_replacement_policy
+ac_plrum_replacement_policy	ac_plrum_replacement_policy.H	/^class ac_plrum_replacement_policy : public ac_cache_replacement_policy$/;"	c
+ac_random_replacement_policy	ac_random_replacement_policy.H	/^  ac_random_replacement_policy(unsigned int num_blocks, unsigned int associativity) : $/;"	f	class:ac_random_replacement_policy
+ac_random_replacement_policy	ac_random_replacement_policy.H	/^class ac_random_replacement_policy : public ac_cache_replacement_policy$/;"	c
+ac_write_back_cache	ac_cache.H	/^	ac_write_back_cache(backing_store &memory_, const int proc_id=-1) : memory(memory_), trace_active(false),$/;"	f	class:ac_write_back_cache
+ac_write_back_cache	ac_cache.H	/^class ac_write_back_cache {$/;"	c
+ac_write_through_cache	ac_cache.H	/^	ac_write_through_cache(backing_store &memory_, const int proc_id=-1) : memory(memory_), trace_active(false),$/;"	f	class:ac_write_through_cache
+ac_write_through_cache	ac_cache.H	/^class ac_write_through_cache {$/;"	c
+actual_profile	ac_cache_power.H	/^            unsigned int actual_profile;$/;"	m	struct:cache_power_stats::dynamic_data
+add	ac_cache_trace.cpp	/^void ac_cache_trace::add(trace_operation o, unsigned a, unsigned l)$/;"	f	class:ac_cache_trace
+address	cacheBlock.h	/^		uint32_t address;$/;"	m	class:cacheBlock
+alocate_blocks	cacheMem.cpp	/^void cacheMem::alocate_blocks(int index_size)$/;"	f	class:cacheMem
+am__DIST_COMMON	Makefile	/^am__DIST_COMMON = $(srcdir)\/Makefile.in $(top_srcdir)\/config\/depcomp$/;"	m
+am__aclocal_m4_deps	Makefile	/^am__aclocal_m4_deps = $(top_srcdir)\/configure.ac$/;"	m
+am__base_list	Makefile	/^am__base_list = \\$/;"	m
+am__can_run_installinfo	Makefile	/^am__can_run_installinfo = \\$/;"	m
+am__cd	Makefile	/^am__cd = CDPATH="$${ZSH_VERSION+.}$(PATH_SEPARATOR)" && cd$/;"	m
+am__configure_deps	Makefile	/^am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \\$/;"	m
+am__define_uniq_tagged_files	Makefile	/^am__define_uniq_tagged_files = \\$/;"	m
+am__depfiles_maybe	Makefile	/^am__depfiles_maybe = depfiles$/;"	m
+am__include	Makefile	/^am__include = include$/;"	m
+am__install_max	Makefile	/^am__install_max = 40$/;"	m
+am__installdirs	Makefile	/^am__installdirs = "$(DESTDIR)$(includedir)"$/;"	m
+am__is_gnu_make	Makefile	/^am__is_gnu_make = { \\$/;"	m
+am__leading_dot	Makefile	/^am__leading_dot = .$/;"	m
+am__make_dryrun	Makefile	/^am__make_dryrun = (target_option=n; $(am__make_running_with_option))$/;"	m
+am__make_keepgoing	Makefile	/^am__make_keepgoing = (target_option=k; $(am__make_running_with_option))$/;"	m
+am__make_running_with_option	Makefile	/^am__make_running_with_option = \\$/;"	m
+am__mv	Makefile	/^am__mv = mv -f$/;"	m
+am__nobase_list	Makefile	/^am__nobase_list = $(am__nobase_strip_setup); \\$/;"	m
+am__nobase_strip	Makefile	/^am__nobase_strip = \\$/;"	m
+am__nobase_strip_setup	Makefile	/^am__nobase_strip_setup = \\$/;"	m
+am__quote	Makefile	/^am__quote = $/;"	m
+am__strip_dir	Makefile	/^am__strip_dir = f=`echo $$p | sed -e 's|^.*\/||'`;$/;"	m
+am__tagged_files	Makefile	/^am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)$/;"	m
+am__tar	Makefile	/^am__tar = $${TAR-tar} chof - "$$tardir"$/;"	m
+am__uninstall_files_from_dir	Makefile	/^am__uninstall_files_from_dir = { \\$/;"	m
+am__uniquify_input	Makefile	/^am__uniquify_input = $(AWK) '\\$/;"	m
+am__untar	Makefile	/^am__untar = $${TAR-tar} xf -$/;"	m
+am__v_CXXLD_	Makefile	/^am__v_CXXLD_ = $(am__v_CXXLD_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXXLD_0	Makefile	/^am__v_CXXLD_0 = @echo "  CXXLD   " $@;$/;"	m
+am__v_CXXLD_1	Makefile	/^am__v_CXXLD_1 = $/;"	m
+am__v_CXX_	Makefile	/^am__v_CXX_ = $(am__v_CXX_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_CXX_0	Makefile	/^am__v_CXX_0 = @echo "  CXX     " $@;$/;"	m
+am__v_CXX_1	Makefile	/^am__v_CXX_1 = $/;"	m
+am__v_GEN_	Makefile	/^am__v_GEN_ = $(am__v_GEN_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_GEN_0	Makefile	/^am__v_GEN_0 = @echo "  GEN     " $@;$/;"	m
+am__v_GEN_1	Makefile	/^am__v_GEN_1 = $/;"	m
+am__v_P_	Makefile	/^am__v_P_ = $(am__v_P_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_P_0	Makefile	/^am__v_P_0 = false$/;"	m
+am__v_P_1	Makefile	/^am__v_P_1 = :$/;"	m
+am__v_at_	Makefile	/^am__v_at_ = $(am__v_at_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_at_0	Makefile	/^am__v_at_0 = @$/;"	m
+am__v_at_1	Makefile	/^am__v_at_1 = $/;"	m
+am__v_lt_	Makefile	/^am__v_lt_ = $(am__v_lt_$(AM_DEFAULT_VERBOSITY))$/;"	m
+am__v_lt_0	Makefile	/^am__v_lt_0 = --silent$/;"	m
+am__v_lt_1	Makefile	/^am__v_lt_1 = $/;"	m
+am__vpath_adj	Makefile	/^am__vpath_adj = case $$p in \\$/;"	m
+am__vpath_adj_setup	Makefile	/^am__vpath_adj_setup = srcdirstrip=`echo "$(srcdir)" | sed 's|.|.|g'`;$/;"	m
+am_libaccache_la_OBJECTS	Makefile	/^am_libaccache_la_OBJECTS = ac_cache_trace.lo cacheBlock.lo cacheMem.lo \\$/;"	m
+bindir	Makefile	/^bindir = ${exec_prefix}\/bin$/;"	m
+block_address	ac_cache_bhv.H	/^  inline ADDRESS block_address(const cache_block_t &cb) const$/;"	f	class:cache_bhv
+block_address	ac_cache_bhv.H	/^  inline ADDRESS block_address(void) const$/;"	f	class:cache_bhv
+block_data	ac_cache_bhv.H	/^  inline const char *block_data(const cache_block_t &cb) const$/;"	f	class:cache_bhv
+block_index	ac_cache_bhv.H	/^  inline unsigned int block_index(const cache_block_t &cb) const$/;"	f	class:cache_bhv
+block_index	ac_cache_bhv.H	/^  inline unsigned int block_index(void) const$/;"	f	class:cache_bhv
+block_pointer	ac_cache_bhv.H	/^  inline const cache_block_t *block_pointer(void) const$/;"	f	class:cache_bhv
+block_read	ac_fifo_replacement_policy.H	/^  inline void block_read(unsigned int block_index) {};$/;"	f	class:ac_fifo_replacement_policy
+block_read	ac_lru_replacement_policy.H	/^  inline void block_read(unsigned int block_index)$/;"	f	class:ac_lru_replacement_policy
+block_read	ac_plrum_replacement_policy.H	/^  inline void block_read(unsigned int block_index) $/;"	f	class:ac_plrum_replacement_policy
+block_read	ac_random_replacement_policy.H	/^  inline void block_read(unsigned int block_index) {};$/;"	f	class:ac_random_replacement_policy
+block_status	ac_cache_bhv.H	/^  inline cache_status_t &block_status(const cache_block_t &cb) const$/;"	f	class:cache_bhv
+block_status	ac_cache_bhv.H	/^  inline cache_status_t &block_status(void) const$/;"	f	class:cache_bhv
+block_tag	ac_cache_bhv.H	/^  inline ADDRESS block_tag(const cache_block_t &cb) const$/;"	f	class:cache_bhv
+block_tag	ac_cache_bhv.H	/^  inline ADDRESS block_tag(void) const$/;"	f	class:cache_bhv
+block_to_replace	ac_fifo_replacement_policy.H	/^  inline unsigned int block_to_replace(unsigned int set_index) $/;"	f	class:ac_fifo_replacement_policy
+block_to_replace	ac_lru_replacement_policy.H	/^  inline unsigned int block_to_replace(unsigned int set_index) $/;"	f	class:ac_lru_replacement_policy
+block_to_replace	ac_plrum_replacement_policy.H	/^  inline unsigned int block_to_replace(unsigned int set_index) $/;"	f	class:ac_plrum_replacement_policy
+block_to_replace	ac_random_replacement_policy.H	/^  inline unsigned int block_to_replace(unsigned int set_index) $/;"	f	class:ac_random_replacement_policy
+block_written	ac_fifo_replacement_policy.H	/^  inline void block_written(unsigned int block_index) {};$/;"	f	class:ac_fifo_replacement_policy
+block_written	ac_lru_replacement_policy.H	/^  inline void block_written(unsigned int block_index) $/;"	f	class:ac_lru_replacement_policy
+block_written	ac_plrum_replacement_policy.H	/^  inline void block_written(unsigned int block_index) $/;"	f	class:ac_plrum_replacement_policy
+block_written	ac_random_replacement_policy.H	/^  inline void block_written(unsigned int block_index) {};$/;"	f	class:ac_random_replacement_policy
+blocks	cacheMem.h	/^		cacheBlock *blocks;$/;"	m	class:cacheMem
+build	Makefile	/^build = x86_64-pc-linux-gnu$/;"	m
+build_alias	Makefile	/^build_alias = $/;"	m
+build_cpu	Makefile	/^build_cpu = x86_64$/;"	m
+build_os	Makefile	/^build_os = linux-gnu$/;"	m
+build_triplet	Makefile	/^build_triplet = x86_64-pc-linux-gnu$/;"	m
+build_vendor	Makefile	/^build_vendor = pc$/;"	m
+builddir	Makefile	/^builddir = .$/;"	m
+byte_to_word	ac_cache.H	/^	address byte_to_word(address a) {$/;"	f	class:ac_write_back_cache
+byte_to_word	ac_cache.H	/^	address byte_to_word(address a) {$/;"	f	class:ac_write_through_cache
+cache	ac_cache.H	/^	          write_back_state, replacement_policy> cache;$/;"	m	class:ac_write_back_cache
+cache	ac_cache.H	/^	          write_through_state, replacement_policy> cache;$/;"	m	class:ac_write_through_cache
+cache	ac_cache_if.H	/^	cache_t &cache;$/;"	m	class:ac_cache_if
+cacheBlock	ac_cache_bhv.H	/^  int cacheIndex, cacheBlock, cacheChecking;$/;"	m	class:cache_bhv
+cacheBlock	cacheBlock.cpp	/^cacheBlock::cacheBlock()$/;"	f	class:cacheBlock
+cacheBlock	cacheBlock.h	/^class cacheBlock$/;"	c
+cacheChecking	ac_cache_bhv.H	/^  int cacheIndex, cacheBlock, cacheChecking;$/;"	m	class:cache_bhv
+cacheIndex	ac_cache_bhv.H	/^  int cacheIndex, cacheBlock, cacheChecking;$/;"	m	class:cache_bhv
+cacheMem	cacheMem.h	/^		cacheMem(){};$/;"	f	class:cacheMem
+cacheMem	cacheMem.h	/^		cacheMem(int n){nWay=n;};$/;"	f	class:cacheMem
+cacheMem	cacheMem.h	/^class cacheMem$/;"	c
+cacheMemVector	Dir.h	/^		cacheMem cacheMemVector[MAX_NUMBER_OF_CACHES];$/;"	m	class:Dir
+cacheModIndex	cacheMem.h	/^		int cacheModIndex;$/;"	m	class:cacheMem
+cache_bhv	ac_cache_bhv.H	/^cache_bhv(const int proc_id) :$/;"	f	class:cache_bhv
+cache_bhv	ac_cache_bhv.H	/^class cache_bhv $/;"	c
+cache_bhv_h	ac_cache_bhv.H	125;"	d
+cache_block_t	ac_cache_bhv.H	/^  struct cache_block_t {$/;"	s	class:cache_bhv
+cache_name	ac_cache_power.H	/^    string cache_name;$/;"	m	class:cache_power_stats
+cache_power_stats	ac_cache_power.H	/^    cache_power_stats(const int proc_id):$/;"	f	class:cache_power_stats
+cache_power_stats	ac_cache_power.H	/^class cache_power_stats {$/;"	c
+cache_replacement_policy_h	ac_cache_replacement_policy.H	21;"	d
+cache_statistics	ac_cache.H	/^struct cache_statistics {$/;"	s
+cache_trace	ac_cache.H	/^	ac_cache_trace *cache_trace;$/;"	m	class:ac_write_back_cache
+cache_trace	ac_cache.H	/^	ac_cache_trace *cache_trace;$/;"	m	class:ac_write_through_cache
+cache_type_line_t	ac_cache_power.H	/^enum cache_type_line_t {$/;"	g
+calc_total_power	ac_cache_power.H	/^        void calc_total_power()$/;"	f	class:cache_power_stats
+calc_window_power	ac_cache_power.H	/^        void calc_window_power()$/;"	f	class:cache_power_stats
+checkNumberCache	Dir.cpp	/^void Dir::checkNumberCache(int numberCache)$/;"	f	class:Dir
+checkValidation	Dir.cpp	/^bool Dir::checkValidation(int numberCache, uint32_t address, int cacheIndex)$/;"	f	class:Dir
+checkValidation	cacheBlock.cpp	/^bool cacheBlock::checkValidation(uint32_t m_address)$/;"	f	class:cacheBlock
+checkValidation	cacheMem.cpp	/^bool cacheMem::checkValidation(uint32_t address, int cacheIndex)$/;"	f	class:cacheMem
+contador_debug	ac_cache_power.H	/^        int contador_debug;$/;"	m	class:cache_power_stats
+count	ac_lru_replacement_policy.H	/^  size_t count;$/;"	m	class:ac_lru_replacement_policy
+counter	ac_fifo_replacement_policy.H	/^  uint8_t *counter;$/;"	m	class:ac_fifo_replacement_policy
+current_block	ac_cache_bhv.H	/^  inline const cache_block_t current_block(void) const$/;"	f	class:cache_bhv
+data	ac_cache_bhv.H	/^    cpu_word       *data;$/;"	m	struct:cache_bhv::cache_block_t
+datadir	Makefile	/^datadir = ${datarootdir}$/;"	m
+datarootdir	Makefile	/^datarootdir = ${prefix}\/share$/;"	m
+debug_file	ac_cache_power.H	/^        FILE* debug_file;$/;"	m	class:cache_power_stats
+depcomp	Makefile	/^depcomp = $(SHELL) $(top_srcdir)\/config\/depcomp$/;"	m
+dir	ac_cache.H	/^		static Dir dir;$/;"	m	class:ac_write_through_cache
+dir	ac_cache.H	/^> Dir ac_write_through_cache <index_size, block_size, associativity, cpu_word, backing_store, replacement_policy, address>::dir;		$/;"	m	class:ac_write_through_cache
+dirty	ac_cache.H	/^	bool dirty;$/;"	m	struct:write_back_state
+docdir	Makefile	/^docdir = ${datarootdir}\/doc\/${PACKAGE_TARNAME}$/;"	m
+dvidir	Makefile	/^dvidir = ${docdir}$/;"	m
+dyn	ac_cache_power.H	/^        dynamic_data dyn;$/;"	m	class:cache_power_stats
+dynamic_data	ac_cache_power.H	/^        struct dynamic_data$/;"	s	class:cache_power_stats
+energy_scale	ac_cache_power.H	/^            double energy_scale;$/;"	m	struct:cache_power_stats::profile
+evictions	ac_cache.H	/^	unsigned long long evictions;$/;"	m	struct:cache_statistics
+exec_prefix	Makefile	/^exec_prefix = ${prefix}$/;"	m
+fifo_replacement_policy_h	ac_fifo_replacement_policy.H	22;"	d
+freq	ac_cache_power.H	/^            unsigned int freq;$/;"	m	struct:cache_power_stats::profile
+freq_scale	ac_cache_power.H	/^            double freq_scale;$/;"	m	struct:cache_power_stats::profile
+generate_cache_name	ac_cache_power.H	/^    string generate_cache_name(const int id) {$/;"	f	class:cache_power_stats
+getEnergyPerCache	ac_cache_power.H	/^         double getEnergyPerCache()$/;"	f	class:cache_power_stats
+getId	ac_cache.H	/^	int getId ()$/;"	f	class:ac_write_back_cache
+getId	ac_cache.H	/^	int getId ()$/;"	f	class:ac_write_through_cache
+get_available_block	ac_cache_bhv.H	/^get_available_block(void)$/;"	f	class:cache_bhv
+get_block	ac_cache_bhv.H	/^  inline bool get_block(ADDRESS addr)$/;"	f	class:cache_bhv
+get_block	ac_cache_bhv.H	/^  inline bool get_block(ADDRESS addr, cache_block_t &cb)$/;"	f	class:cache_bhv
+get_block_for_read	ac_cache_bhv.H	/^  bool get_block_for_read(ADDRESS addr, int *cIndex)$/;"	f	class:cache_bhv
+get_block_for_read	ac_cache_bhv.H	/^  inline bool get_block_for_read(ADDRESS addr)$/;"	f	class:cache_bhv
+get_block_for_write	ac_cache_bhv.H	/^  bool get_block_for_write(ADDRESS addr, int *cIndex, int *cBlock)$/;"	f	class:cache_bhv
+get_block_for_write	ac_cache_bhv.H	/^  inline bool get_block_for_write(ADDRESS addr)$/;"	f	class:cache_bhv
+get_energy_access	ac_cache_power.H	/^        double get_energy_access(int command, int profile)$/;"	f	class:cache_power_stats
+get_name	ac_cache_if.H	/^	virtual std::string get_name() const {$/;"	f	class:ac_cache_if
+get_power	ac_cache_power.H	/^        double get_power() {$/;"	f	class:cache_power_stats
+get_size	ac_cache.H	/^	uint32_t get_size() {$/;"	f	class:ac_write_back_cache
+get_size	ac_cache.H	/^	uint32_t get_size() {$/;"	f	class:ac_write_through_cache
+get_size	ac_cache_if.H	/^	virtual uint32_t get_size() const {$/;"	f	class:ac_cache_if
+get_statistics	ac_cache.H	/^	void get_statistics(cache_statistics *statistics) {$/;"	f	class:ac_write_back_cache
+get_statistics	ac_cache.H	/^	void get_statistics(cache_statistics *statistics) {$/;"	f	class:ac_write_through_cache
+get_tag	ac_cache_bhv.H	/^  ADDRESS get_tag(ADDRESS addr)$/;"	f	class:cache_bhv
+host	Makefile	/^host = x86_64-pc-linux-gnu$/;"	m
+host_alias	Makefile	/^host_alias = $/;"	m
+host_cpu	Makefile	/^host_cpu = x86_64$/;"	m
+host_os	Makefile	/^host_os = linux-gnu$/;"	m
+host_triplet	Makefile	/^host_triplet = x86_64-pc-linux-gnu$/;"	m
+host_vendor	Makefile	/^host_vendor = pc$/;"	m
+htmldir	Makefile	/^htmldir = ${docdir}$/;"	m
+idCache	ac_cache.H	/^	int idCache;$/;"	m	class:ac_write_back_cache
+idCache	ac_cache.H	/^	int idCache;$/;"	m	class:ac_write_through_cache
+idle_power	ac_cache_power.H	/^      double idle_power;    \/\/power when cache is idle.$/;"	m	struct:cache_power_stats::profile
+include_HEADERS	Makefile	/^include_HEADERS = ac_cache_bhv.H ac_cache.H ac_cache_if.H ac_cache_replacement_policy.H ac_cache_trace.H ac_fifo_replacement_policy.H ac_lru_replacement_policy.H ac_plrum_replacement_policy.H ac_random_replacement_policy.H ac_cache_power.H Dir.h cacheMem.h cacheBlock.h $/;"	m
+includedir	Makefile	/^includedir = ${prefix}\/include$/;"	m
+incr_total_active_energy	ac_cache_power.H	/^        void incr_total_active_energy(double v) {$/;"	f	class:cache_power_stats
+incr_window_energy	ac_cache_power.H	/^        void incr_window_energy(double v) {$/;"	f	class:cache_power_stats
+index	ac_cache_bhv.H	/^    ADDRESS index; \/\/ NOTE; this index is multiplied by associativity$/;"	m	struct:cache_bhv::split_address_t
+index	ac_cache_bhv.H	/^    unsigned int   index; \/* not really needed, but helps in retrieving the $/;"	m	struct:cache_bhv::cache_block_t
+index_size	Dir.h	/^		int totalOfCaches, index_size, started;$/;"	m	class:Dir
+infodir	Makefile	/^infodir = ${datarootdir}\/info$/;"	m
+init	ac_cache_power.H	/^        void init(const char* filename)$/;"	f	class:cache_power_stats
+install_sh	Makefile	/^install_sh = ${SHELL} \/home\/jtxiao\/NTHU\/Research\/GitHub\/ArchC\/config\/install-sh$/;"	m
+install_sh_DATA	Makefile	/^install_sh_DATA = $(install_sh) -c -m 644$/;"	m
+install_sh_PROGRAM	Makefile	/^install_sh_PROGRAM = $(install_sh) -c$/;"	m
+install_sh_SCRIPT	Makefile	/^install_sh_SCRIPT = $(install_sh) -c$/;"	m
+invalidate	ac_cache_bhv.H	/^  void invalidate(ADDRESS addr)$/;"	f	class:cache_bhv
+invalidate	cacheBlock.cpp	/^void cacheBlock::invalidate()$/;"	f	class:cacheBlock
+invalidate	cacheMem.cpp	/^bool cacheMem::invalidate(uint32_t address, int cacheBlockIndex)$/;"	f	class:cacheMem
+invalidate_address	ac_cache.H	/^	void invalidate_address(uint32_t a){$/;"	f	class:ac_write_through_cache
+is_dirty	ac_cache.H	/^	bool is_dirty() {$/;"	f	struct:write_back_state
+is_invalid	ac_cache.H	/^	bool is_invalid() {$/;"	f	struct:write_back_state
+is_invalid	ac_cache.H	/^	bool is_invalid() {$/;"	f	struct:write_through_state
+last_window_time	ac_cache_power.H	/^      double last_window_time;$/;"	m	struct:cache_power_stats::dynamic_data
+libaccache_la_LIBADD	Makefile	/^libaccache_la_LIBADD =$/;"	m
+libaccache_la_OBJECTS	Makefile	/^libaccache_la_OBJECTS = $(am_libaccache_la_OBJECTS)$/;"	m
+libaccache_la_SOURCES	Makefile	/^libaccache_la_SOURCES = ac_cache_trace.cpp cacheBlock.cpp cacheMem.cpp Dir.cpp$/;"	m
+libdir	Makefile	/^libdir = ${exec_prefix}\/lib$/;"	m
+libexecdir	Makefile	/^libexecdir = ${exec_prefix}\/libexec$/;"	m
+localedir	Makefile	/^localedir = ${datarootdir}\/locale$/;"	m
+localstatedir	Makefile	/^localstatedir = ${prefix}\/var$/;"	m
+lock	ac_cache_if.H	/^	virtual void lock() {$/;"	f	class:ac_cache_if
+lru_replacement_policy_h	ac_lru_replacement_policy.H	18;"	d
+m_assoc	ac_cache_replacement_policy.H	/^  unsigned int m_assoc;$/;"	m	class:ac_cache_replacement_policy
+m_blocks	ac_cache_bhv.H	/^  cache_block_t m_blocks[associativity*index_size];        \/**< Pointer that organizes all the pointers above. *\/$/;"	m	class:cache_bhv
+m_cache_data	ac_cache_bhv.H	/^  cpu_word m_cache_data[block_size*associativity*index_size\/sizeof(cpu_word)];  \/**< A single pointer to the whole data. *\/$/;"	m	class:cache_bhv
+m_cache_status	ac_cache_bhv.H	/^  cache_status_t m_cache_status[associativity*index_size]; \/**< Pointer to the whole status data. *\/$/;"	m	class:cache_bhv
+m_cache_tag	ac_cache_bhv.H	/^  ADDRESS m_cache_tag[associativity*index_size];           \/**< Pointer to the whole tag data. *\/$/;"	m	class:cache_bhv
+m_current_block	ac_cache_bhv.H	/^  cache_block_t    m_current_block;  \/**< Current block. *\/ $/;"	m	class:cache_bhv
+m_current_sa	ac_cache_bhv.H	/^  split_address_t  m_current_sa;     \/**< Current split address. *\/$/;"	m	class:cache_bhv
+m_evictions	ac_cache_bhv.H	/^  unsigned long long int m_evictions;$/;"	m	class:cache_bhv
+m_index_bits	ac_cache_bhv.H	/^  unsigned int m_index_bits;$/;"	m	class:cache_bhv
+m_index_mask	ac_cache_bhv.H	/^  unsigned int m_index_mask;$/;"	m	class:cache_bhv
+m_num_blocks	ac_cache_replacement_policy.H	/^  unsigned int m_num_blocks;$/;"	m	class:ac_cache_replacement_policy
+m_offset_bits	ac_cache_bhv.H	/^  unsigned int m_offset_bits;$/;"	m	class:cache_bhv
+m_offset_mask	ac_cache_bhv.H	/^  unsigned int m_offset_mask;$/;"	m	class:cache_bhv
+m_read_hit	ac_cache_bhv.H	/^  unsigned long long int m_read_hit;$/;"	m	class:cache_bhv
+m_read_miss	ac_cache_bhv.H	/^  unsigned long long int m_read_miss;$/;"	m	class:cache_bhv
+m_rep_pol	ac_cache_bhv.H	/^  replacement_policy m_rep_pol;$/;"	m	class:cache_bhv
+m_tag_mask	ac_cache_bhv.H	/^  unsigned int m_tag_mask;$/;"	m	class:cache_bhv
+m_tag_size	ac_cache_bhv.H	/^  unsigned int m_tag_size;$/;"	m	class:cache_bhv
+m_write_hit	ac_cache_bhv.H	/^  unsigned long long int m_write_hit;$/;"	m	class:cache_bhv
+m_write_miss	ac_cache_bhv.H	/^  unsigned long long int m_write_miss;$/;"	m	class:cache_bhv
+mandir	Makefile	/^mandir = ${datarootdir}\/man$/;"	m
+memory	ac_cache.H	/^	backing_store &memory;$/;"	m	class:ac_write_back_cache
+memory	ac_cache.H	/^	backing_store &memory;$/;"	m	class:ac_write_through_cache
+memory_read_hit	ac_cache_bhv.H	/^  inline void memory_read_hit()$/;"	f	class:cache_bhv
+memory_write_hit	ac_cache_bhv.H	/^  inline void memory_write_hit()$/;"	f	class:cache_bhv
+mkdir_p	Makefile	/^mkdir_p = $(MKDIR_P)$/;"	m
+mkinstalldirs	Makefile	/^mkinstalldirs = $(install_sh) -d$/;"	m
+mru_all_bits_set	ac_plrum_replacement_policy.H	/^  uint32_t mru_all_bits_set;$/;"	m	class:ac_plrum_replacement_policy
+mru_bits	ac_plrum_replacement_policy.H	/^  uint32_t *mru_bits;$/;"	m	class:ac_plrum_replacement_policy
+nWay	cacheMem.h	/^		int nWay;$/;"	m	class:cacheMem
+next_strtok	ac_cache_power.H	/^        char* next_strtok(const char* param, FILE* f, int pos_line)$/;"	f	class:cache_power_stats
+noinst_LTLIBRARIES	Makefile	/^noinst_LTLIBRARIES = libaccache.la$/;"	m
+num_profiles	ac_cache_power.H	/^            unsigned int num_profiles;$/;"	m	struct:cache_power_stats::dynamic_data
+numberCache	cacheMem.h	/^		int numberCache;$/;"	m	class:cacheMem
+number_block_eviction	ac_cache_bhv.H	/^  virtual inline unsigned long long int number_block_eviction(void) const$/;"	f	class:cache_bhv
+number_read_hit	ac_cache_bhv.H	/^  virtual inline unsigned long long int number_read_hit(void) const $/;"	f	class:cache_bhv
+number_read_miss	ac_cache_bhv.H	/^  virtual inline unsigned long long int number_read_miss(void) const$/;"	f	class:cache_bhv
+number_write_hit	ac_cache_bhv.H	/^  virtual inline unsigned long long int number_write_hit(void) const $/;"	f	class:cache_bhv
+number_write_miss	ac_cache_bhv.H	/^  virtual inline unsigned long long int number_write_miss(void) const$/;"	f	class:cache_bhv
+offset	ac_cache_bhv.H	/^    ADDRESS offset;$/;"	m	struct:cache_bhv::split_address_t
+oldincludedir	Makefile	/^oldincludedir = \/usr\/include$/;"	m
+operator <<	ac_cache_bhv.H	/^ostream &operator << (ostream &fsout, $/;"	f
+out	ac_cache_trace.H	/^	std::ostream &out;$/;"	m	class:ac_cache_trace
+out_window_power_report	ac_cache_power.H	/^        FILE* out_window_power_report;$/;"	m	class:cache_power_stats
+p	ac_cache_power.H	/^            profile* p;$/;"	m	struct:cache_power_stats::power_stats_data
+pdfdir	Makefile	/^pdfdir = ${docdir}$/;"	m
+pkgdatadir	Makefile	/^pkgdatadir = $(datadir)\/archc$/;"	m
+pkgincludedir	Makefile	/^pkgincludedir = $(includedir)\/archc$/;"	m
+pkglibdir	Makefile	/^pkglibdir = $(libdir)\/archc$/;"	m
+pkglibexecdir	Makefile	/^pkglibexecdir = $(libexecdir)\/archc$/;"	m
+plrum_replacement_policy_h	ac_plrum_replacement_policy.H	23;"	d
+power_stats_data	ac_cache_power.H	/^        struct power_stats_data$/;"	s	class:cache_power_stats
+power_stats_descr	ac_cache_power.H	/^            char power_stats_descr[CACHE_MAX_POWER_STATS_DESCR_SIZE];$/;"	m	struct:cache_power_stats::profile
+power_stats_name	ac_cache_power.H	/^            char power_stats_name[CACHE_MAX_POWER_STATS_NAME_SIZE];$/;"	m	struct:cache_power_stats::profile
+powersc_connect	ac_cache.H	/^ 	void powersc_connect() {$/;"	f	class:ac_write_through_cache
+powersc_connect	ac_cache.H	/^  	void powersc_connect() {$/;"	f	class:ac_write_back_cache
+powersc_connect	ac_cache_power.H	/^        void powersc_connect()$/;"	f	class:cache_power_stats
+prefix	Makefile	/^prefix = \/home\/jtxiao\/Downloads\/acinstall$/;"	m
+print	ac_cache.H	/^	void print(std::ostream &fsout) {$/;"	f	class:ac_write_back_cache
+print	ac_cache.H	/^	void print(std::ostream &fsout) {$/;"	f	class:ac_write_through_cache
+print	ac_cache.H	/^	void print(std::ostream &fsout) {$/;"	f	struct:write_back_state
+print	ac_cache.H	/^	void print(std::ostream &fsout) {$/;"	f	struct:write_through_state
+print_psc_data	ac_cache_power.H	/^        void print_psc_data() {$/;"	f	class:cache_power_stats
+print_statistic	ac_cache_bhv.H	/^print_statistic(ostream &fsout) const$/;"	f	class:cache_bhv
+print_statistics	ac_cache.H	/^	void print_statistics(ostream &out) {$/;"	f	class:ac_write_back_cache
+print_statistics	ac_cache.H	/^	void print_statistics(ostream &out) {$/;"	f	class:ac_write_through_cache
+profile	ac_cache_power.H	/^        struct profile$/;"	s	class:cache_power_stats
+program_transform_name	Makefile	/^program_transform_name = s,x,x,$/;"	m
+ps	ac_cache_bhv.H	/^  cache_power_stats ps;$/;"	m	class:cache_bhv
+psc_data	ac_cache_power.H	/^        power_stats_data psc_data;$/;"	m	class:cache_power_stats
+psc_info	ac_cache_power.H	/^        psc_cell_power_info psc_info;$/;"	m	class:cache_power_stats
+psdir	Makefile	/^psdir = ${docdir}$/;"	m
+random_replacement_policy_h	ac_random_replacement_policy.H	18;"	d
+read	ac_cache.H	/^	  const cpu_word *read(address a, unsigned length) {$/;"	f	class:ac_write_back_cache
+read	ac_cache.H	/^	const cpu_word *read(address a, unsigned length) {$/;"	f	class:ac_write_through_cache
+read	ac_cache_if.H	/^		virtual void read(ac_ptr buf, uint32_t address,$/;"	f	class:ac_cache_if
+read	ac_cache_if.H	/^	virtual void read(ac_ptr buf, uint32_t address, int wordsize) {$/;"	f	class:ac_cache_if
+read	ac_cache_if.H	/^	virtual void read(ac_ptr buf, uint32_t address, int wordsize,sc_core::sc_time &time_info, unsigned int procId=0) {$/;"	f	class:ac_cache_if
+read	ac_cache_if.H	/^	virtual void read(ac_ptr buf, uint32_t address,$/;"	f	class:ac_cache_if
+readSetState	cacheMem.cpp	/^bool cacheMem::readSetState(uint32_t address, int cacheBlockIndex)$/;"	f	class:cacheMem
+read_block	ac_cache_bhv.H	/^read_block(void)$/;"	f	class:cache_bhv
+read_block_single	ac_cache_bhv.H	/^                      read_block_single(void)$/;"	f	class:cache_bhv
+read_energy	ac_cache_power.H	/^      double read_energy;    \/\/energy to read from the cache$/;"	m	struct:cache_power_stats::profile
+read_hit	ac_cache.H	/^	unsigned long long read_hit;$/;"	m	struct:cache_statistics
+read_miss	ac_cache.H	/^	unsigned long long read_miss;$/;"	m	struct:cache_statistics
+read_written_block	ac_plrum_replacement_policy.H	/^  void read_written_block(unsigned int block_index)$/;"	f	class:ac_plrum_replacement_policy
+ref	ac_cache.H	/^	int ref;$/;"	m	class:ac_write_through_cache
+report	ac_cache_power.H	/^        void report()$/;"	f	class:cache_power_stats
+reset_window_data	ac_cache_power.H	/^        void reset_window_data() {$/;"	f	class:cache_power_stats
+runstatedir	Makefile	/^runstatedir = ${localstatedir}\/run$/;"	m
+sbindir	Makefile	/^sbindir = ${exec_prefix}\/sbin$/;"	m
+sequence	ac_lru_replacement_policy.H	/^  uint8_t **sequence;$/;"	m	class:ac_lru_replacement_policy
+setId	ac_cache.H	/^	void setId (int id)$/;"	f	class:ac_write_through_cache
+setId	ac_cache.H	/^ 	void setId (int id)$/;"	f	class:ac_write_back_cache
+setStateBlock	cacheBlock.cpp	/^void cacheBlock::setStateBlock(char new_state)$/;"	f	class:cacheBlock
+set_block_status	ac_cache_bhv.H	/^  inline void set_block_status(cache_block_t &cb, const cache_status_t &cs)$/;"	f	class:cache_bhv
+set_block_status	ac_cache_bhv.H	/^  inline void set_block_status(const cache_status_t &cs)$/;"	f	class:cache_bhv
+set_dirty	ac_cache.H	/^	void set_dirty() {$/;"	f	struct:write_back_state
+set_invalid	ac_cache.H	/^	void set_invalid() {$/;"	f	struct:write_back_state
+set_invalid	ac_cache.H	/^	void set_invalid() {$/;"	f	struct:write_through_state
+set_trace	ac_cache.H	/^	void set_trace(std::ostream &o) {$/;"	f	class:ac_write_back_cache
+set_trace	ac_cache.H	/^	void set_trace(std::ostream &o) {$/;"	f	class:ac_write_through_cache
+set_valid	ac_cache.H	/^	void set_valid() {$/;"	f	struct:write_back_state
+set_valid	ac_cache.H	/^	void set_valid() {$/;"	f	struct:write_through_state
+sharedstatedir	Makefile	/^sharedstatedir = ${prefix}\/com$/;"	m
+split_address	ac_cache_bhv.H	/^  inline void split_address(ADDRESS address, split_address_t &sa)$/;"	f	class:cache_bhv
+split_address_t	ac_cache_bhv.H	/^  struct split_address_t {$/;"	s	class:cache_bhv
+srcdir	Makefile	/^srcdir = .$/;"	m
+start	Dir.cpp	/^void Dir::start(int n, int index)$/;"	f	class:Dir
+started	Dir.h	/^		int totalOfCaches, index_size, started;$/;"	m	class:Dir
+state	cacheBlock.h	/^		char state;$/;"	m	class:cacheBlock
+status	ac_cache_bhv.H	/^    cache_status_t *status;$/;"	m	struct:cache_bhv::cache_block_t
+subdir	Makefile	/^subdir = src\/aclib\/ac_cache$/;"	m
+sysconfdir	Makefile	/^sysconfdir = ${prefix}\/etc$/;"	m
+tag	ac_cache_bhv.H	/^    ADDRESS        *tag;$/;"	m	struct:cache_bhv::cache_block_t
+tag	ac_cache_bhv.H	/^    ADDRESS tag;$/;"	m	struct:cache_bhv::split_address_t
+target_alias	Makefile	/^target_alias = $/;"	m
+top_build_prefix	Makefile	/^top_build_prefix = ..\/..\/..\/$/;"	m
+top_builddir	Makefile	/^top_builddir = ..\/..\/..$/;"	m
+top_srcdir	Makefile	/^top_srcdir = ..\/..\/..$/;"	m
+totalOfCaches	Dir.h	/^		int totalOfCaches, index_size, started;$/;"	m	class:Dir
+total_active_energy	ac_cache_power.H	/^            double total_active_energy;$/;"	m	struct:cache_power_stats::dynamic_data
+total_num_access	ac_cache_power.H	/^            long long total_num_access; $/;"	m	struct:cache_power_stats::dynamic_data
+total_power	ac_cache_power.H	/^            double total_power;$/;"	m	struct:cache_power_stats::dynamic_data
+trace_active	ac_cache.H	/^	bool trace_active;$/;"	m	class:ac_write_back_cache
+trace_active	ac_cache.H	/^	bool trace_active;$/;"	m	class:ac_write_through_cache
+trace_operation	ac_cache_trace.H	/^enum trace_operation { trace_read, trace_write };$/;"	g
+trace_read	ac_cache_trace.H	/^enum trace_operation { trace_read, trace_write };$/;"	e	enum:trace_operation
+trace_write	ac_cache_trace.H	/^enum trace_operation { trace_read, trace_write };$/;"	e	enum:trace_operation
+transform	Makefile	/^transform = $(program_transform_name)$/;"	m
+type_line	ac_cache_power.H	/^    cache_type_line_t type_line(int line, int num_profiles)$/;"	f	class:cache_power_stats
+unlock	ac_cache_if.H	/^	virtual void unlock() {$/;"	f	class:ac_cache_if
+unvalidate	Dir.cpp	/^void Dir::unvalidate(int numberCache, uint32_t address, int cacheBlockIndex)$/;"	f	class:Dir
+update_stat_power	ac_cache_power.H	/^        void update_stat_power(int command)$/;"	f	class:cache_power_stats
+valid	ac_cache.H	/^	bool valid;$/;"	m	struct:write_back_state
+valid	ac_cache.H	/^	bool valid;$/;"	m	struct:write_through_state
+validate	Dir.cpp	/^bool Dir::validate(int numberCache, uint32_t address, int cacheAddress)$/;"	f	class:Dir
+validate	cacheBlock.cpp	/^void cacheBlock::validate(uint32_t m_address)$/;"	f	class:cacheBlock
+validate	cacheMem.cpp	/^bool cacheMem::validate(uint32_t address, int index)$/;"	f	class:cacheMem
+validated	cacheBlock.h	/^		bool validated;$/;"	m	class:cacheBlock
+whitebox	ac_cache_bhv.H	/^namespace whitebox { class cache_bhv_test; }$/;"	n
+window_count	ac_cache_power.H	/^            long long window_count;$/;"	m	struct:cache_power_stats::dynamic_data
+window_energy	ac_cache_power.H	/^            double window_energy;$/;"	m	struct:cache_power_stats::dynamic_data
+window_num_access	ac_cache_power.H	/^            long long window_num_access;$/;"	m	struct:cache_power_stats::dynamic_data
+window_power	ac_cache_power.H	/^            double window_power;$/;"	m	struct:cache_power_stats::dynamic_data
+window_power_report	ac_cache_power.H	/^        void window_power_report()$/;"	f	class:cache_power_stats
+window_size	ac_cache_power.H	/^            unsigned int window_size;$/;"	m	struct:cache_power_stats::dynamic_data
+word_to_byte	ac_cache.H	/^	address word_to_byte(address a) {$/;"	f	class:ac_write_back_cache
+word_to_byte	ac_cache.H	/^	address word_to_byte(address a) {$/;"	f	class:ac_write_through_cache
+write	ac_cache.H	/^		void write(address a, const cpu_word *d, unsigned length) {$/;"	f	class:ac_write_through_cache
+write	ac_cache.H	/^	  void write(address a, const cpu_word *d, unsigned length) {$/;"	f	class:ac_write_back_cache
+write	ac_cache_if.H	/^		virtual void write(ac_ptr buf, uint32_t address,$/;"	f	class:ac_cache_if
+write	ac_cache_if.H	/^	virtual void write(ac_ptr buf, uint32_t address,$/;"	f	class:ac_cache_if
+writeSetState	cacheMem.cpp	/^void cacheMem::writeSetState(uint32_t address, int cacheBlockIndex)$/;"	f	class:cacheMem
+write_back_state	ac_cache.H	/^	write_back_state() : valid(false), dirty(false) {}$/;"	f	struct:write_back_state
+write_back_state	ac_cache.H	/^struct write_back_state {$/;"	s
+write_block	ac_cache_bhv.H	/^write_block(const cache_status_t &st, const cpu_word *blockdata)$/;"	f	class:cache_bhv
+write_block	ac_cache_bhv.H	/^write_block(const cpu_word *blockdata)$/;"	f	class:cache_bhv
+write_block_single	ac_cache_bhv.H	/^write_block_single(const cache_status_t &st, const cpu_word *value, unsigned length)$/;"	f	class:cache_bhv
+write_block_single	ac_cache_bhv.H	/^write_block_single(const cpu_word *value, unsigned length)$/;"	f	class:cache_bhv
+write_energy	ac_cache_power.H	/^      double write_energy;   \/\/energy to write to the cache$/;"	m	struct:cache_power_stats::profile
+write_hit	ac_cache.H	/^	unsigned long long write_hit;$/;"	m	struct:cache_statistics
+write_miss	ac_cache.H	/^	unsigned long long write_miss;$/;"	m	struct:cache_statistics
+write_through_state	ac_cache.H	/^	write_through_state() : valid(false) {}$/;"	f	struct:write_through_state
+write_through_state	ac_cache.H	/^struct write_through_state {$/;"	s
+~Dir	Dir.cpp	/^Dir::~Dir()$/;"	f	class:Dir
+~ac_cache_if	ac_cache_if.H	/^	virtual ~ac_cache_if() {}$/;"	f	class:ac_cache_if
+~ac_cache_trace	ac_cache_trace.cpp	/^ac_cache_trace::~ac_cache_trace() { out.flush(); }$/;"	f	class:ac_cache_trace
+~ac_fifo_replacement_policy	ac_fifo_replacement_policy.H	/^  virtual ~ac_fifo_replacement_policy() { if (this->m_assoc != 1) delete [] counter; }$/;"	f	class:ac_fifo_replacement_policy
+~ac_lru_replacement_policy	ac_lru_replacement_policy.H	/^  ~ac_lru_replacement_policy()$/;"	f	class:ac_lru_replacement_policy
+~ac_plrum_replacement_policy	ac_plrum_replacement_policy.H	/^  ~ac_plrum_replacement_policy() { delete [] mru_bits; }$/;"	f	class:ac_plrum_replacement_policy
+~ac_write_back_cache	ac_cache.H	/^	~ac_write_back_cache() {$/;"	f	class:ac_write_back_cache
+~ac_write_through_cache	ac_cache.H	/^	~ac_write_through_cache() {$/;"	f	class:ac_write_through_cache
+~cacheMem	cacheMem.cpp	/^cacheMem::~cacheMem()$/;"	f	class:cacheMem
+~cache_bhv	ac_cache_bhv.H	/^  ~cache_bhv() {$/;"	f	class:cache_bhv
+~cache_power_stats	ac_cache_power.H	/^        ~cache_power_stats() {$/;"	f	class:cache_power_stats

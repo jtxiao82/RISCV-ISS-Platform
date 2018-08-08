@@ -33,11 +33,7 @@ class simple : public sc_core::sc_module{
     simple (sc_module_name name);
 
     riscv                 riscv_proc1;
-    #if defined(TLMADDR_FI) || defined(TLMDATA_FI)
-    Fi_SimpleBus    <1,1> fi_bus1;
-    #else
     SimpleBus 	    <1,1> bus1;
-    #endif
     ram                   ram1;
 }; // simple
 
@@ -45,27 +41,15 @@ simple::simple (sc_module_name name)
     : 
       sc_core::sc_module (name)
     , riscv_proc1("riscv")
-    #if defined(TLMADDR_FI) || defined(TLMDATA_FI)
-    , fi_bus1("fi_bus1")
-    #else
     , bus1("bus1")
-    #endif
     , ram1 ("ram1", "sp1", 0x80000000)
 {
 
     // bus1 masters
-    #if defined(TLMADDR_FI) || defined(TLMDATA_FI)
-    riscv_proc1.DM.LOCAL_init_socket(fi_bus1.target_socket[0]);
-    #else
     riscv_proc1.DM.LOCAL_init_socket(bus1.target_socket[0]);
-    #endif
 
     // bus1 slaves
-    #if defined(TLMADDR_FI) || defined(TLMDATA_FI)
-    fi_bus1.bindTargetSocket(ram1.sp1, 0x0, 0xffffffff, 0xffffffff);
-    #else
     bus1.bindTargetSocket(ram1.sp1, 0x0, 0xffffffff, 0xffffffff);
-    #endif
 		
 }
 
@@ -77,11 +61,7 @@ int sc_main(int ac, char *av[])
   cout << "Constructing." << endl;
   simple top("top");
   uint64_t instr_per_sec = 1000000000; //1G
-  #if defined(TLMADDR_FI) || defined(TLMDATA_FI)
-  top.fi_bus1.set_clock_period( sc_core::sc_time(1,SC_SEC)/instr_per_sec ); //1ns 
-  #else
   top.bus1.set_clock_period( sc_core::sc_time(1,SC_SEC)/instr_per_sec ); //1ns 
-  #endif
   cout << "Starting sc_main." << endl;
 
 #ifdef AC_DEBUG
