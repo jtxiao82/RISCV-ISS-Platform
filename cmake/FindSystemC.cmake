@@ -14,8 +14,7 @@
 set (SYSTEMC_SEARCH_PATH 
         /usr/local
         /usr
-        #/home/jtxiao/NTHU/Research/Git/FI_Platform_Intrusive/FaultInjectionPlatform/install/systemc/
-        ${CMAKE_CURRENT_SOURCE_DIR}/../../install/systemc
+        ${CMAKE_CURRENT_SOURCE_DIR}/install/systemc
     )
 
 find_path (SYSTEMC_INCLUDE_DIR systemc

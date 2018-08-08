@@ -14,16 +14,12 @@
 set (ARCHC_SEARCH_PATH 
         /usr/local
         /usr
-        ${CMAKE_CURRENT_SOURCE_DIR}/../../install/archc
+        ${CMAKE_CURRENT_SOURCE_DIR}/install/archc
     )
 
 # Hard code the ARCHC include path
 set (ARCHC_INCLUDE_DIR
-
-        ${CMAKE_CURRENT_SOURCE_DIR}/../../install/archc/include
-        ${CMAKE_CURRENT_SOURCE_DIR}/fi_lib
-        ${CMAKE_CURRENT_SOURCE_DIR}/monitor
-        ${CMAKE_CURRENT_SOURCE_DIR}/tinyxml
+        ${CMAKE_CURRENT_SOURCE_DIR}/install/archc/include
     )
 
 find_path (ARCHC_INCLUDE_DIR archc
@@ -32,7 +28,7 @@ find_path (ARCHC_INCLUDE_DIR archc
     )
 
 set (ARCHC_LIBRARY
-        ${CMAKE_CURRENT_SOURCE_DIR}/../../install/archc/lib
+        ${CMAKE_CURRENT_SOURCE_DIR}/install/archc/lib
     )
 
 find_library (ARCHC_LIBRARY archc
