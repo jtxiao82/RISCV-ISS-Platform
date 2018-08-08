@@ -20,6 +20,7 @@
 riscv_arch::riscv_arch() :
   ac_arch_dec_if<riscv_parms::ac_word, riscv_parms::ac_Hword>(riscv_parms::AC_MAX_BUFFER),
   ac_pc("ac_pc", 0),
+  ac_id("ac_id", 0),
   DM("DM", 536870912U),
   DM_mport(*this, DM),
   RB("RB"),

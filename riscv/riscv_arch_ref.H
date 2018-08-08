@@ -25,7 +25,6 @@
 #include  "ac_tlm2_intr_port.H"
 
 #include "ac_cache.H"
-#include "ac_mem.H"
 #include "ac_fifo_replacement_policy.H"
 #include "ac_random_replacement_policy.H"
 #include "ac_plrum_replacement_policy.H"
@@ -39,6 +38,9 @@ public:
  
   //!Program Counter.
   ac_reg<unsigned>& ac_pc;
+
+  //!Processor Id.
+  ac_reg<unsigned>& ac_id;
 
   //!Storage Devices.
   ac_memport<riscv_parms::ac_word, riscv_parms::ac_Hword>& DM;

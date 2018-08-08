@@ -151,7 +151,7 @@ public:
     sensitive << wake;
     has_delayed_load = false; 
     start_up=1;
-    //id.write(globalId++); // Comment for avoiding compilation error
+    ac_id.write(globalId++);
     set_proc_freq(1000/module_period_ns);
   }
 

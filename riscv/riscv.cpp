@@ -32,7 +32,7 @@ void* riscv::dispatch() {
     ac_qk.sync();
   }
   if( ac_pc >= dec_cache_size){
-    cerr << "ArchC: Address out of bounds (pc=0x" << hex << ac_pc << ")." << endl;
+    //cerr << "ArchC: Address out of bounds (pc=0x" << hex << ac_pc << ")." << endl; // Comment for avioding error notation.
     stop();
     longjmp(ac_env, AC_ACTION_STOP);
   }
@@ -1037,6 +1037,7 @@ void riscv::behavior() {
 } // behavior()
 
 #include <ac_sighandlers.H>
+#include <ac_args.H>
 
 void riscv::init() {
   if (ac_cache_traces.find("IC") != ac_cache_traces.end()) IC.set_trace(*ac_cache_traces["IC"]);
@@ -1061,10 +1062,6 @@ void riscv::init() {
 #endif
   set_running();
 }
-
-#include <ac_sighandlers.H>
-#include <ac_args.H>
-
 
 void riscv::init(int ac, char *av[]) {
 

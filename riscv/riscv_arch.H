@@ -18,7 +18,7 @@
 
 #include  "riscv_parms.H"
 #include  "ac_arch_dec_if.H"
-#include  "ac_storage.H"
+#include  "ac_mem.H"
 #include  "ac_memport.H"
 #include  "ac_regbank.H"
 #include  "ac_reg.H"
@@ -26,7 +26,6 @@
 #include  "ac_tlm2_intr_port.H"
  
 #include "ac_cache.H"
-#include "ac_mem.H"
 #include "ac_fifo_replacement_policy.H"
 #include "ac_random_replacement_policy.H"
 #include "ac_plrum_replacement_policy.H"
@@ -39,6 +38,9 @@ public:
 
   //!Program Counter.
   ac_reg<unsigned> ac_pc;
+
+  //!Processor id.
+  ac_reg<unsigned> ac_id;
 
   //!Storage Devices.
   ac_tlm2_port DM;
@@ -71,7 +73,7 @@ public:
   virtual ~riscv_arch() {};
 
   static int globalId;
-  //int getId() { return id.read(); } // Comment for avoiding compilation error
+  int getId() { return ac_id.read(); }
 };
 
 #endif  //_RISCV_ARCH_H
